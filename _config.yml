@@ -6,9 +6,10 @@ baseurl:           /sldp/
 url:
 
 # Social Profiles
-twitter_username:  SBootstrap
-github_username:   BlackrockDigital
-facebook_username: StartBootstrap
+twitter_username:  UCLADigLib
+instagram_username: UCLALibrary
+github_username:   UCLALibrary
+facebook_username: UCLADigitalLibrary
 
 # Build settings
 markdown:          kramdown
