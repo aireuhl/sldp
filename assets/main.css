@@ -197,7 +197,7 @@ header.masthead {
     font-size: 20px;
     font-weight: 300;
     font-style: italic;
-    font-family: 'Lora', 'Times New Roman', serif; }
+    font-family: 'Open Sans', sans-serif; }
     header.masthead .post-heading .meta a {
       color: #fff; }
   @media only screen and (min-width: 768px) {
@@ -250,11 +250,11 @@ header.masthead {
     border-radius: 0;
     background: none;
     box-shadow: none !important;
-    font-family: 'Lora', 'Times New Roman', serif; }
+    font-family: 'Open Sans', sans-serif; }
     .floating-label-form-group input::-webkit-input-placeholder,
     .floating-label-form-group textarea::-webkit-input-placeholder {
       color: #868e96;
-      font-family: 'Lora', 'Times New Roman', serif; }
+      font-family: 'Open Sans', sans-serif; }
   .floating-label-form-group label {
     font-size: 0.85em;
     line-height: 1.764705882em;
