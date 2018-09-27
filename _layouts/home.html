@@ -13,7 +13,7 @@ layout: default
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>{{ site.title }}</h1>
+            <h1>{{ site.subtitle }}</h1>
             {% if site.description %}
               <span class="subheading">{{ site.description }}</span>
             {% endif %}
@@ -24,29 +24,35 @@ layout: default
   </header>
 
   <div class="container">
+
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
 
         {{ content }}
 
+        <p>The Sinai Palimpsests Project is using state-of-the-art spectral imaging to recover erased texts from palimpsest manuscripts in the library of St. Catherine’s Monastery of the Sinai, the world’s oldest continually operating monastery.  The monastery holds an exceptional collection of more than 160 palimpsests, the erased layers of which preserve unstudied texts from the 4th to the 12th century.  An online research library, now in development, will make the palimpsests of Sinai globally accessible for study.</p>
+
+        <h2> Recent News </h2>
+
         <!-- Home Post List -->
-        {% for post in site.posts limit : 5 %}
+        {% for post in site.posts limit : 3 %}
 
           <article class="post-preview">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
               <h2 class="post-title">{{ post.title }}</h2>
               {% if post.subtitle %}
-                <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+                <h4 class="post-subtitle">{{ post.subtitle }}</h4>
               {% else %}
-                <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
+                <h4 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h4>
               {% endif %}
             </a>
-            <p class="post-meta">Posted by
+            <p class="post-meta">Posted
+              <!-- by
               {% if post.author %}
                 {{ post.author }}
               {% else %}
                 {{ site.author }}
-              {% endif %}
+              {% endif %} -->
               on
               {{ post.date | date: '%B %d, %Y' }}</p>
           </article>

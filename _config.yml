@@ -1,6 +1,7 @@
 title:             Sinai Library Digitization Project
-email:
-description:       A collaborative project with St. Catherine's Monastery, UCLA Digital Library, and Early Manuscripts Electronic Library
+subtitle:          Arabic and Syriac Manuscripts of St. Catherine's Monastery
+email:             dlp@library.ucla.edu
+description:       A collaborative digitization project between St. Catherine's Monastery in Sinai, the UCLA Digital Library, and the Early Manuscripts Electronic Library
 author:            UCLA Digital Library
 baseurl:           /sldp/
 url:
@@ -8,8 +9,8 @@ url:
 # Social Profiles
 twitter_username:  UCLADigLib
 instagram_username: UCLALibrary
-github_username:   UCLALibrary
-facebook_username: UCLADigitalLibrary
+# github_username:   UCLALibrary
+facebook_username: UCLADigLib
 
 # Build settings
 markdown:          kramdown
