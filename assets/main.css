@@ -170,7 +170,7 @@ header.masthead {
       margin-top: 0; }
     header.masthead .page-heading .subheading,
     header.masthead .site-heading .subheading {
-      font-size: 24px;
+      font-size: 1.35px;
       font-weight: 300;
       line-height: 1.1;
       display: block;
@@ -179,7 +179,7 @@ header.masthead {
     @media only screen and (min-width: 768px) {
       header.masthead .page-heading h1,
       header.masthead .site-heading h1 {
-        font-size: 80px; } }
+        font-size: 3rem; } }
   header.masthead .post-heading h1 {
     font-size: 35px; }
   header.masthead .post-heading .meta,
